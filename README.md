@@ -7,7 +7,6 @@
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/ebd15cad-94ac-430c-9d87-d5cf97a0fa6c" />
 
 
-いいですね、ここまでの進捗を**技術面**と**機能面**で整理すると、全体像がクリアになります。以下にまとめます。
 
 ---
 
