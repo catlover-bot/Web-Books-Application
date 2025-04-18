@@ -1,0 +1,87 @@
+.app {
+  background: #f0e6d2 url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* 木目背景 */
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form input {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #865439;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 2rem;
+  background: #f1f1f1;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.book {
+  width: 140px;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  position: relative;
+}
+
+.book:hover {
+  transform: translateY(-5px);
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.info {
+  margin-top: 0.5rem;
+}
+
+.delete-button {
+  background: transparent;
+  border: none;
+  color: crimson;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  transition: transform 0.2s ease;
+}
+
+.delete-button:hover {
+  transform: scale(1.3);
+}
+
